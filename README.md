@@ -6,7 +6,7 @@
 
 ### Run Dockerized FastAPI Locally
 
-`docker build -t vit-fastapi .`
+`docker build -t vit-fastapi -f Dockerfile.local .`
 
 `docker run -p 80:80 vit-fastapi:latest`
 
@@ -18,4 +18,4 @@ RUN python -c 'from sentence_transformers import SentenceTransformer; SentenceTr
 
 ## References
 
-[1](https://radix.ai/blog/2020/12/swiftly-writing-and-deploying-apis-to-stay-agile/)
+[Swiftly Writing and Deploying APIs to Stay Agile](https://radix.ai/blog/2020/12/swiftly-writing-and-deploying-apis-to-stay-agile/)
